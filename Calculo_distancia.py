@@ -11,7 +11,7 @@ import os
 from astropy.io import fits
 
 
-path =r"C:/Users/Alexander/Desktop/VIU-TFM/DATA/"
+path =r".."
 
 data = pd.DataFrame(columns=['Name', 'chalpha', 'fwhm'])
 
@@ -32,6 +32,5 @@ data['z']= data.merge(redshift, on=['Name'], how='left')['z']
 
 data['distance']= data['z']*299792.458/69.6
 
-# data.to_csv(path+'galaxies_data_SINFWHM.csv')
 data.to_excel(path+'galaxies_data.xlsx')
 
