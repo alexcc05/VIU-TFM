@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-#Código para hallar el número de regiones y X^2 de cada ejecución, y generar los histogramas de cada ejecución de cada galaxia y seleccionar la mejor de ellas
+#Código para hallar el número de regiones y X^2 de cada ejecución, y generar los histogramas de las ejecuciones de cada galaxia y seleccionar la mejor de ellas
 
 import xlsxwriter
 import os
