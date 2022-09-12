@@ -12,7 +12,7 @@ from astropy.wcs import WCS
 import os
 import pandas as pd
 
-path = 'C:/Users/Alexander/Desktop/VIU-TFM/DATA/'
+path = '..'
 
 dataPositions = pd.read_excel(path+'RECORTE_POSICIONES.xlsx')
 
